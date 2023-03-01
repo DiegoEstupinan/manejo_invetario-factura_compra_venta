@@ -1,0 +1,1 @@
+{"version":1,"defects":{"Test\\Models\\DetalleComprasTest::testInsert":3,"Test\\Models\\FacturaComprasTest::testInsert":3,"Models\\PersonasTest::testInsert":4},"times":{"Test\\Models\\DetalleComprasTest::testInsert":0.262,"Test\\Models\\FacturaComprasTest::testInsert":0.161,"Models\\PersonasTest::testInsert":0.238,"Test\\Models\\ProductosTest::testInsert":0.977}}

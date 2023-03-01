@@ -1,0 +1,70 @@
+{
+    "name": "ferrogameza",
+    "version": "0.0.1",
+    "description": "Proyecto Ferro Gameza",
+    "main": "index.js",
+    "scripts": {
+        "buildcss": "sass --style=compressed resources/scss/:views/public/css/",
+        "buildjs": "uglifyjs-folder resources/js/ -eo views/public/js/",
+        "buildimg": "copyfiles -u 2 resources/img/*.* views/public/img/",
+        "build": "npm run buildcss & npm run buildjs & npm run buildimg"
+    },
+    "keywords": [
+        "inventario",
+        "php",
+        "proyecto",
+        "ferreteria"
+    ],
+    "repository": "https://github.com/DonJavier00/FerroGameza.git",
+    "authors": [
+        {
+            "name": "Mayerly Pirajan",
+            "email": "mpirajan3@misena.edu.co",
+            "role": "developer"
+        },
+        {
+            "name": "Brayan Curtidor",
+            "email": "bscurtidor@misena.edu.co",
+            "role": "developer"
+        },
+        {
+            "name": "Karen Estepa",
+            "email": "ktestepa@misena.edu.co",
+            "role": "developer"
+        },
+        {
+            "name": "Luisa Salamanca",
+            "email": "lfsalamanca5@misena.edu.co",
+            "role": "developer"
+        },
+        {
+            "name": "Javier Sanches",
+            "email": "elyarviss13@misena.edu.co",
+            "role": "developer"
+        },
+        {
+            "name": "Diego Estupinan",
+            "email": "damesa722@misena.edu.co",
+            "role": "developer"
+        }
+    ],
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/DonJavier00/FerroGameza.git"
+    },
+    "homepage": "https://github.com/DonJavier00/FerroGameza.git#readme",
+    "dependencies": {
+        "bootstrap": ">=5.1.3",
+        "bootstrap-imageupload": "^1.1.3",
+        "bootstrap-social": "^5.1.1",
+        "copyfiles": "^2.4.1",
+        "jquery": ">=3.6.0",
+        "popper.js": "^1.16.1",
+        "postcss": "^8.2.1",
+        "sass": "^1.49.7",
+        "sass-lint": "*",
+        "sweetalert": "^2.1.2",
+        "uglify-js": "^3.12.2",
+        "uglifyjs-folder": "^2.0.0"
+    }
+}
