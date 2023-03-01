@@ -30,3 +30,12 @@ Para su correcto funcionamiento se requiere tener instaladas las siguientes herr
 4. Instalar el Script de la base de datos en phpmyadmin.
 5. Ejecutar npm install && npm run build
 6. composer dump-autoload
+
+### Equipo
+
+1. Diego Alejandro
+2. Brayan Stivem
+3. Javier Andres
+4. Karen Tatian
+5. Luisa Fernanda
+6. Mayerly Pirajan
